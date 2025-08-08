@@ -13,9 +13,6 @@ public class PropsReader {
     @Value("${tavily.api.key}")
     private String tavilyApiKey;
 
-    @Value("${gemini.api.key}")
-    private String geminiApiKey;
-
     @Value("${hugging.face.api.key}")
     private String huggingFaceApiKey;
 }
